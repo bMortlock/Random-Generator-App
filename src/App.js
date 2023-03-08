@@ -1,7 +1,7 @@
 import logo from './Images/Logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
-import Home from './Pages/Home'
+import Home from './Pages/Home/Home'
 import Pokemon from './Pages/Pokemon'
 import Digimon from './Pages/Digimon/Digimon'
 import FireEmblem from './Pages/FireEmblem/FireEmblem';
@@ -23,9 +23,7 @@ function App() {
         
       </Routes>
         
-        <div classname = "Content">
-          
-        </div>
+        
       </BrowserRouter>
     </div>
     
