@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar';
 import Home from './Pages/Home'
 import Pokemon from './Pages/Pokemon'
 import Digimon from './Pages/Digimon/Digimon'
-import FireEmblem from './Pages/FireEmblem';
+import FireEmblem from './Pages/FireEmblem/FireEmblem';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 

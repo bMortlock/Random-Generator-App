@@ -1,7 +1,9 @@
 
 import IMAGES from '../../Images/DigimonIndex';
-import './Digimon.css'
-import '../../Fonts/Pixel Digivolve.otf'
+import './Digimon.css';
+import '../../Fonts/Pixel Digivolve.otf';
+import React, {useState} from 'react';
+
 
 export default function Digimon() {
     var myArray = ["leopardmon",
@@ -108,10 +110,6 @@ export default function Digimon() {
     var Image9;
     var Image10;
     var Image11;
-
-    
-
-   
 
     if (randomItem === "ulforceveedramon"){
        Image1 = <img src={IMAGES.UlforceVeedramon} alt="Digimon" className="digimon"/>
@@ -1942,9 +1940,9 @@ if (randomItem11 === "ulforceveedramon"){
 
     return (
     <div>
+       {/* <button type="button" onClick={Refresh}>Refresh</button> */}
     <h1>Random Digimon Team Picker</h1>
-    This is an application that will randomly select 11 digimon from a list for the User to use in Digimon Story Cyber Sleuth Complete Edition
-    
+    This is an application that will randomly select 11 digimon from a list for the User to use in Digimon Story Cyber Sleuth Complete Edition. Refresh the page to change.
    <div className='Digimon'>
 
     <div className='DigimonSlot'>
@@ -2034,7 +2032,10 @@ if (randomItem11 === "ulforceveedramon"){
 
 </div>
 
+
+
     </div>
+
     </div>
     )
 
