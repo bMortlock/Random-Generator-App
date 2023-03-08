@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: Pixel Digivolve;
+    src:local("Pixel Digivolve"), url("../../Fonts/Pixel Digivolve.otf") format("truetype");
+    font-weight: normal;
+}
+
+
+.Digimon{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    gap: 20px;
+}
+
+.DigimonSlot{
+    width:300px;
+    justify-content: center;
+}
+
+.digiName{
+    font-family: Pixel Digivolve;
+}
+
